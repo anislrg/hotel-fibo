@@ -6,15 +6,21 @@
  	display: flex;
  	justify-content: space-around;
  }
+ .navbox:hover{
+    color: black;
+ }
 
 li{
 	list-style: none;
 
 }
+
+
  a {	
  	text-decoration: none;
     color: white;
  }
+
 
  .logo{
  	text-align: center;
@@ -24,22 +30,33 @@ li{
  }
 
  header {
- 	background-color: rgba(0,0,0,0.5);
+ 	background-color: rgba(0,0,0,0.3);
+ }
+
+ header:hover{
+  background-color: goldenrod;
+  color: white;
+  opacity: 0,5;
  }
 
  .cta{
-    font-size: 16px;
-    padding: 12px 28px;
-    border: 8px;
-  
-  
-  
-  
-
+    background-color:goldenrod;
+    border-radius: 2px;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: -12px 0px 10px 0px;
+  transition-duration: 0.4s;
+  cursor: pointer;
  }
+ 
  .cta:hover{
-    
-    
+    background-color:rgba(0,0,0,0.5);
+  color: white;
  }
 
  body{
