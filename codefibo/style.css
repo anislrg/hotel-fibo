@@ -1,0 +1,47 @@
+*{
+	margin:0 ;
+	padding: 0;
+}
+ .navbox ul{
+ 	display: flex;
+ 	justify-content: space-around;
+ }
+
+li{
+	list-style: none;
+
+}
+ a {	
+ 	text-decoration: none;
+    color: white;
+ }
+
+ .logo{
+ 	text-align: center;
+ 	padding-top: 5px;
+    padding-bottom: 5px;
+
+ }
+
+ header {
+ 	background-color: rgba(0,0,0,0.5);
+ }
+
+ .cta{
+    font-size: 16px;
+    padding: 12px 28px;
+    border: 8px;
+  
+  
+  
+  
+
+ }
+ .cta:hover{
+    
+    
+ }
+
+ body{
+ 	background-image: ;
+ }
