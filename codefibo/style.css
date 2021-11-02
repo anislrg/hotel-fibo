@@ -6,59 +6,104 @@
  	display: flex;
  	justify-content: space-around;
  }
- .navbox:hover{
-    color: black;
- }
-
 li{
 	list-style: none;
-
 }
-
-
  a {	
  	text-decoration: none;
-    color: white;
+    color:white;
  }
-
-
  .logo{
  	text-align: center;
  	padding-top: 5px;
     padding-bottom: 5px;
 
  }
-
  header {
  	background-color: rgba(0,0,0,0.3);
  }
-
+ .navbox:hover{
+    color: black;
+}
  header:hover{
-  background-color: goldenrod;
-  color: white;
+  background-color:white;
+  color: black;
   opacity: 0,5;
  }
 
  .cta{
     background-color:goldenrod;
     border-radius: 2px;
-  border: none;
-  color: white;
-  padding: 12px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  margin: -12px 0px 10px 0px;
-  transition-duration: 0.4s;
-  cursor: pointer;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: -12px 0px 10px 0px;
+    transition-duration: 0.4s;
+    cursor: pointer;
  }
  
  .cta:hover{
     background-color:rgba(0,0,0,0.5);
   color: white;
  }
-
  body{
- 	background-image: ;
+   background-color: #f1f1f1;
+   font-family: arial;
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
  }
+ footer{
+   border-top: solid;
+   width: 100%;
+   background:#eed9c4;
+   color: white;
+   flex-shrink: 0;
+   position: absolute;
+ }
+
+footer img{
+   width: 30px;
+}
+footer h3{
+   font-size: 25px;
+   padding-bottom: 20px;
+}
+.footer-contact p{
+   padding: 5px 0;
+}
+footer li{
+   list-style-type: none;
+}
+.list-services li{
+   padding: 2px 0;
+}
+.list-services a{
+   text-decoration: none;
+   color: white;
+}
+.list-services a:hover{
+   color: black;
+}
+.contenu{
+   width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   font-size: 20px;
+   margin: 50px 0 100px;
+   flex: 1 0 auto;
+   margin-left: 130px;
+}
+.block{
+   width: 25%;
+   margin: 0 30px;
+}
+
+
+
