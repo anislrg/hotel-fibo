@@ -1,0 +1,68 @@
+body {
+    background-image: url("assets/ch_fond.png");
+    /* background-color: rgba(24, 24, 80, 0.3); */
+}
+
+.chambre {
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    background-color: rgba(100,100,100,0.8);
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.chambre h1 {
+    text-align: center;
+    color: seashell;
+    margin: 10px;
+}
+
+.chambre_picto {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_chambre {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.picto_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.picto_col img {
+    width: 50px;
+    height: 50px;
+}
+.picto_ligne {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.texte_chambre {
+    width: 88%;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.separateur {
+    display: block;
+    margin: auto;
+}
