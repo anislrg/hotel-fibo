@@ -114,7 +114,7 @@ body {
 }
 /*footer*/
 footer{
-   border-bottom: 2px solid white;
+   border-top: 2px solid white;
    width: 100%;
    background:rgba(0,0,0,0.7);
    color: white;
