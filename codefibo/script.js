@@ -1,9 +1,9 @@
 
-var radius = 300;
+var radius = 700;
 var autoRotate = true;
 var rotateSpeed = -40;
-var imgWidth = 250; 
-var imgHeight = 150;
+var imgWidth = 400; 
+var imgHeight = 350;
 
 
 var bgMusicURL = 'https://api.soundcloud.com/tracks/143041228/stream?client_id=587aa2d384f7333a886010d5f52f302a';
