@@ -1,41 +1,37 @@
-* {
+*{
 margin:0 ;
 padding: 0;
 }
-
- .navbox ul {
+.navbox ul{
 display: flex;
 justify-content: space-around;
 }
-
-.navbox:hover {
-color: black;
-}
-
-li {
+li{
 list-style: none;
 }
-
-a {	
+.navbox a {    
 text-decoration: none;
-color: white;
+color:white;
 }
-
-.logo {
+.logo{
 text-align: center;
 padding-top: 5px;
 padding-bottom: 5px;
 }
+      /*header et hover*/
 
 header {
-background-color: rgba(0,0,0,0.5);
 background-color: rgba(0,0,0,0.3);
+border-bottom: 2px solid white;
 }
-
-header:hover {
-background-color: goldenrod;
-color: white;
+header:hover{
+background-color:white;
+color: black;
 opacity: 0,5;
+}
+header:hover a{
+color: black;
+background-color: rgba(255, 255, 255, 0);
 }
 .video {
 position: fixed; 
@@ -91,39 +87,38 @@ box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 5px
 float: left;
 margin: 0px 15px 15px 0px;
 }
-footer {
-border-top: solid;
+footer{
+border-top: 2px solid white;
 width: 100%;
-background: goldenrod;
+background:#eed9c4;
 color: white;
 flex-shrink: 0;
 position: absolute;
-z-index: inherit;
 }
-footer img {
+ footer img{
 width: 30px;
 }
-footer h3 {
+ footer h3{
 font-size: 25px;
 padding-bottom: 20px;
 }
-.footer-contact p {
+ .footer-contact p{
 padding: 5px 0;
 }
-footer li {
+ footer li{
 list-style-type: none;
 }
-.list-services li {
+ .list-services li{
 padding: 2px 0;
 }
-.list-services a {
+ .list-services a{
 text-decoration: none;
 color: white;
 }
-.list-services a:hover {
+ .list-services a:hover{
 color: black;
 }
-.contenu {
+ .contenu{
 width: 1200px;
 margin: 0 auto;
 display: flex;
@@ -134,7 +129,12 @@ margin: 50px 0 100px;
 flex: 1 0 auto;
 margin-left: 130px;
 }
-.block {
+ .block{
 width: 25%;
 margin: 0 30px;
+}
+ .Dim {
+max-height: 100%;
+max-width: 100%;
+margin-top: 2%;
 }
