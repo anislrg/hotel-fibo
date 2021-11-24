@@ -59,7 +59,7 @@ li{
  }
 body {
     height: auto;
-    background: url(../assets/Brume.jpg);
+    background: url(assets/Brume.jpg);
     background-size: cover;
     background-attachment: scroll;
     background-position: center center;
