@@ -1,0 +1,163 @@
+*{
+	margin:0 ;
+	padding: 0;
+}
+ .navbox ul{
+ 	display: flex;
+ 	justify-content: space-around;
+ }
+li{
+	list-style: none;
+}
+ .navbox a {	
+ 	text-decoration: none;
+    color:white;
+ }
+ .logo{
+ 	text-align: center;
+ 	padding-top: 5px;
+    padding-bottom: 5px;
+ }
+      /*header et hover*/
+ header {
+ 	background-color: rgba(0,0,0,0.3);
+   border-bottom: 2px solid white;
+ }
+ header:hover{
+  background-color:white;
+  color: black;
+  opacity: 0,5;
+ }
+ header:hover a{
+   color: black;
+   background-color: rgba(255, 255, 255, 0);
+ }
+      /*bouton reservation*/
+ .cta{
+    background-color:goldenrod;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: -12px 0px 10px 0px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+ }
+ 
+ .cta:hover{
+    background-color:rgba(0,0,0,0.5);
+  color: white;
+ }
+ .cta:hover a{
+    background-color:rgba(0,0,0,0);
+  color: white;
+ }
+body {
+	height: auto;
+	background: url(assets/Brume.jpg);
+	background-size: cover;
+	background-attachment: scroll;
+	background-position: center center;
+}
+a {	
+    text-decoration: none;
+    color: white;
+}
+.Titre {
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+    font-size: 170%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.Arg {
+    text-align: center;
+    color: white;
+    font-size: 100%;
+}
+.Partie-une, .partie-deux, .partie-trois {
+    background-color: hsla(0, 0%, 100%, 0.50);
+    text-align: center;
+    color: black;
+    height: 100%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-repeat: no-repeat;
+    max-width: 50%;
+    max-height: 50%;
+}
+.Partie-une {
+    background-image: url(assets/resto.jpg);
+    background-position: center center;
+	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 5px 7px rgba(0,0,0,0);
+}
+.Partie-deux {
+    background-image: url(assets/brigade.jpg);
+    background-position: center center;
+	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 5px 7px rgba(0,0,0,0);
+}
+.partie-trois {
+    background-image: url(assets/EquipeCuisine.jpg);
+    background-position: center center;
+	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 5px 7px rgba(0,0,0,0);
+}
+#Partie {
+	-webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 5px 7px rgba(0,0,0,0); 
+	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 5px 7px rgba(0,0,0,0);
+}
+footer {
+	border-top: solid;
+	width: 100%;
+	background: goldenrod;
+	color: white;
+	flex-shrink: 0;
+	position: absolute;
+}
+footer img {
+	width: 30px;
+}
+footer h3 {
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+ .footer-contact p{
+	padding: 5px 0;
+}
+footer li {
+	list-style-type: none;
+}
+ .list-services li {
+	padding: 2px 0;
+}
+ .list-services a {
+	text-decoration: none;
+	color: white;
+}
+ .list-services a:hover {
+	color: black;
+}
+ .contenu {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	font-size: 20px;
+	margin: 50px 0 100px;
+	flex: 1 0 auto;
+	margin-left: 130px;
+}
+ .block {
+	width: 25%;
+	margin: 0 30px;
+}
+.Dim {
+    max-height: 100%;
+    max-width: 100%;
+}
