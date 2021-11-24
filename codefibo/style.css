@@ -112,7 +112,46 @@ footer li{
    margin: 0 30px;
 }
 
-/*caroussel*/
+/* Restaurant & Bar*/
+
+.Titre {
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+    font-size: 170%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.Arg {
+    text-align: center;
+    color: white;
+    font-size: 100%;
+}
+.Partie {
+        background-color: hsla(0, 0%, 100%, 0.50);
+        text-align: center;
+        color: black;
+        margin: 2%;
+        max-width: 50%;
+        max-height: 50%;
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 4%;
+}
+#Partie {
+   -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 5px 7px rgba(0,0,0,0); 
+   box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 5px 7px rgba(0,0,0,0);
+}
+.Dim {
+    max-height: 100%;
+    max-width: 100%;
+}
+/*carroussel*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 html,
 body {
@@ -126,8 +165,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   background: #111;
-  -webkit-perspective: 1000px;
-          perspective: 1000px;
+  -webkit-perspective: 500px;
+          perspective: 500px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
 }
@@ -229,39 +268,4 @@ body {
     -webkit-transform: rotateY(0deg);
             transform: rotateY(0deg);
   }
-}
-
-/* Restaurant & Bar*/
-
-.Titre {
-    margin-top: 2%;
-    text-align: center;
-    color: white;
-    font-size: 170%;
-    margin-top: 1%;
-    margin-bottom: 2%;
-}
-.Arg {
-    text-align: center;
-    color: white;
-    font-size: 100%;
-}
-.Partie {
-        background-color: hsla(0, 0%, 100%, 0.50);
-        text-align: center;
-        color: black;
-        margin: 2%;
-        max-width: 50%;
-        max-height: 50%;
-        margin: auto;
-        margin-top: 2%;
-        margin-bottom: 4%;
-}
-#Partie {
-   -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 5px 7px rgba(0,0,0,0); 
-   box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 5px 7px rgba(0,0,0,0);
-}
-.Dim {
-    max-height: 100%;
-    max-width: 100%;
 }

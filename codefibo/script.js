@@ -1,13 +1,13 @@
-var radius = 240;
+
+var radius = 300;
 var autoRotate = true;
-var rotateSpeed = -20;
-var imgWidth = 200; 
-var imgHeight = 170;
+var rotateSpeed = -40;
+var imgWidth = 250; 
+var imgHeight = 150;
 
 
 var bgMusicURL = 'https://api.soundcloud.com/tracks/143041228/stream?client_id=587aa2d384f7333a886010d5f52f302a';
 var bgMusicControls = true;
-
 
 
 setTimeout(init, 100);
@@ -33,7 +33,7 @@ function init(delayTime) {
     aEle[i].style.transition = "transform 1s";
     aEle[i].style.transitionDelay = delayTime || (aEle.length - i) / 4 + "s";
   }
-  }
+}
 
 function applyTranform(obj) {
 
@@ -41,10 +41,6 @@ function applyTranform(obj) {
   if(tY < 0) tY = 0;
 
   obj.style.transform = "rotateX(" + (-tY) + "deg) rotateY(" + (tX) + "deg)";
-}
-
-function playSpin(yes) {
-  ospin.style.animationPlayState = (yes?'running':'paused');
 }
 
 var sX, sY, nX, nY, desX = 0,
@@ -57,16 +53,6 @@ if (autoRotate) {
   var animationName = (rotateSpeed > 0 ? 'spin' : 'spinRevert');
   ospin.style.animation = `${animationName} ${Math.abs(rotateSpeed)}s infinite linear`;
 }
-
-
-if (bgMusicURL) {
-  document.getElementById('music-container').innerHTML += `
-<audio src="${bgMusicURL}" ${bgMusicControls? 'controls': ''} autoplay loop>    
-<p></p>
-</audio>
-`;
-}
-
 
 document.onpointerdown = function (e) {
   clearInterval(obox.timer);
