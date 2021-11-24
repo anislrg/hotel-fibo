@@ -58,24 +58,29 @@ li{
   color: white;
  }
 body {
-   background: url(assets/FondBar.jpeg);
-   background-attachment: fixed;
+   background: url(assets/FondResto.jpeg);
+  /* background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: cover; */
+   background-repeat: no-repeat;
+   background-attachment: scroll;
 }
 /*body restaurant*/
+.Debut {
+   margin-top: 60%;
+}
 .Titre {
     margin-top: 2%;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 170%;
     margin-top: 1%;
     margin-bottom: 2%;
 }
 .Arg {
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 100%;
 }
 .Partie-une, .partie-deux, .partie-trois {
