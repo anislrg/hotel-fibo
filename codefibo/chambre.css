@@ -68,3 +68,8 @@ body {
     display: block;
     margin: auto;
 }
+
+.container img {
+    height: 350px; 
+    object-fit: cover;
+  }
