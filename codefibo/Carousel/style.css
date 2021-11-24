@@ -15,8 +15,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   background: #111;
-  -webkit-perspective: 1000px;
-          perspective: 1000px;
+  -webkit-perspective: 500px;
+          perspective: 500px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
 }
