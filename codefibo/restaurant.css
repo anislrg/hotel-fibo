@@ -58,11 +58,11 @@ li{
   color: white;
  }
 body {
-    height: auto;
-    background: url(assets/fondBar.jpeg);
-    background-size: cover;
-    background-attachment: scroll;
-    background-position: center center;
+   background: url(assets/FondBar.jpeg);
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 /*body restaurant*/
 .Titre {
