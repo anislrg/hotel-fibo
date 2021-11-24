@@ -67,10 +67,11 @@ li{
  footer{
    border-top: 2px solid black;
    width: 100%;
-   background:#eed9c4;
+   background:rgba(0,0,0,0.7);
    color: white;
    flex-shrink: 0;
    position: absolute;
+   border-top: 2px solid white;
  }
 
 footer img{
