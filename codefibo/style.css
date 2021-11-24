@@ -9,7 +9,7 @@
 li{
 	list-style: none;
 }
- a {	
+ .navbox a {	
  	text-decoration: none;
     color:white;
  }
@@ -17,20 +17,22 @@ li{
  	text-align: center;
  	padding-top: 5px;
     padding-bottom: 5px;
-
  }
+      /*header et hover*/
  header {
  	background-color: rgba(0,0,0,0.3);
+   border-bottom: 2px solid white;
  }
- .navbox:hover{
-    color: black;
-}
  header:hover{
   background-color:white;
   color: black;
   opacity: 0,5;
  }
-
+ header:hover a{
+   color: black;
+   background-color: rgba(255, 255, 255, 0);
+ }
+      /*bouton reservation*/
  .cta{
     background-color:goldenrod;
     border-radius: 2px;
@@ -50,6 +52,10 @@ li{
     background-color:rgba(0,0,0,0.5);
   color: white;
  }
+ .cta:hover a{
+    background-color:rgba(0,0,0,0);
+  color: white;
+ }
  body{
    background-color: #f1f1f1;
    font-family: arial;
@@ -57,8 +63,9 @@ li{
    flex-direction: column;
    height: 100vh;
  }
+      /*footer*/
  footer{
-   border-top: solid;
+   border-top: 2px solid black;
    width: 100%;
    background:#eed9c4;
    color: white;
@@ -105,5 +112,5 @@ footer li{
    margin: 0 30px;
 }
 
-
+/*calandar*/
 
