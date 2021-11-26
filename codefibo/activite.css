@@ -1,12 +1,35 @@
-.activite {
-    display: inline-block;
+body {
+    background-image: url("assets/acti-bkg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
+.activite {
+    background-color: rgba(100,100,100,0.8);
+    display: flex;
+    justify-content: space-around;
+
+}
+.activite:hover img {
+    height: 450px;
 }
 
 .img-activite {
-    margin-right: 0;
+    height: 400px;
+    border-radius: 15px;
+    transition: 3s;
 }
 
 .text-activite {
-    margin-left: 0;
+    width: 40%;
+    margin: 60px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.8);
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
 }
