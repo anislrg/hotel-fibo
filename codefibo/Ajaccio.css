@@ -1,13 +1,13 @@
-div#slider { width: 100%; max-width: 500px; }
+div#slider { width: 100%; max-width: 2000px; }
 div#slider figure {
     position: relative; 
-    width: 400%;
-    margin: 0 auto;
-    padding: 15px;
+    width: 500%;
+    margin: 0px;
+    padding: 0px;
     font-size: 0;
   }
   div#slider figure img { width: 20%; height: 500px; float: left; }
-  div#slider { width: 100%; max-width: 1000px; overflow: hidden }
+div#slider { width: 100%; max-width: 2000px; overflow: hidden }
  
   @keyframes slidy {
     0% { left: 0%; }
@@ -19,15 +19,14 @@ div#slider figure {
     75% { left: -300%; }
     95% { left: -300%; }
     100% { left: -400%; }
+    100% { left: 0%; }
+
   }
 
   div#slider figure {
-    position: relative;
     width: 500%;
-    margin: 0;
-    padding: 0;
+    position: center;
     font-size: 0;
-    left: 0;
     animation: 20s slidy infinite;
   }
 
