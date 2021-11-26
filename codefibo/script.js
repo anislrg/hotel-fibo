@@ -37,10 +37,9 @@ function init(delayTime) {
 
 function applyTranform(obj) {
 
-  if(tY > 180) tY = 180;
+  if(tY > 190) tY = 190;
   if(tY < 0) tY = 0;
 
-  obj.style.transform = "rotateX(" + (-tY) + "deg) rotateY(" + (tX) + "deg)";
 }
 
 var sX, sY, nX, nY, desX = 0,
@@ -90,11 +89,4 @@ document.onpointerdown = function (e) {
   };
 
   return false;
-};
-
-document.onmousewheel = function(e) {
-  e = e || window.event;
-  var d = e.wheelDelta / 20 || -e.detail;
-  radius += d;
-  init(1);
 };

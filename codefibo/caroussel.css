@@ -70,8 +70,8 @@
   .caroussel{
       align-items: center;
       margin: 0 auto;
-      height: 700px;
-
+      padding: 125px;
+      height: 500px;
   }
 
   #ground {
