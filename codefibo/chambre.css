@@ -75,3 +75,25 @@ body {
     height: 350px; 
     object-fit: cover;
 }
+
+.btn {
+    top: 50%;
+    left: 50%;
+    background-color: goldenrod;
+    color: white;
+    font-size: 24px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+.btn:hover {
+    background-color:   rgb(24, 24, 24);
+}
+
