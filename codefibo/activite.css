@@ -1,9 +1,9 @@
-/* body {
-    background-image: url("assets/acti-bkg.jpg");
+body {
+    background-image: url("assets/acti-para-bkgJPG.JPG");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-} */
+    /* background-attachment: fixed; */
+}
 
 .activite {
     background-color: rgba(255,255,255);
@@ -34,4 +34,35 @@
 
 p {
     text-align: center;
+}
+
+.btn {
+    top: 50%;
+    left: 50%;
+    background-color: goldenrod;
+    color: white;
+    font-size: 24px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+.btn:hover {
+    background-color:   rgb(24, 24, 24);
+}
+
+h1 {
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.fleche-bas {
+    margin-top: 12%;
+    margin-left: 40%;
 }
