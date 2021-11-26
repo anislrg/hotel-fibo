@@ -127,8 +127,8 @@ h1{
    text-align: center;
 }
 
-/*caroussel 2*/
-div.polaroid {
+/*pictur bateau*/
+.polaroid {
   width: 30%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -139,4 +139,12 @@ div.polaroid {
 div.container {
   text-align: center;
   padding: 10px 20px;
+}
+.pictxt{
+   position: absolute;
+  right: 0px;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  display: inline-block;
 }
