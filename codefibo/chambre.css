@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 80%;
+    width: 70%;
     height: auto;
     background-color: rgba(100,100,100,0.8);
     margin-bottom: 40px;
@@ -26,7 +26,7 @@ body {
 
 .chambre_picto {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .img_chambre {
@@ -53,6 +53,7 @@ body {
     align-items: center;
     border-radius: 10px;
     padding: 10px;
+    padding-bottom: 0px;
     background-color: rgba(255,255,255,0.8);
 }
 
@@ -61,6 +62,7 @@ body {
     margin: 20px;
     border-radius: 10px;
     padding: 20px;
+    text-align: center;
     background-color: rgba(255,255,255,0.8);
 }
 
@@ -72,4 +74,4 @@ body {
 .container img {
     height: 350px; 
     object-fit: cover;
-  }
+}
