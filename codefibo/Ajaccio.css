@@ -6,7 +6,7 @@ div#slider figure {
     padding: 0px;
     font-size: 0;
   }
-  div#slider figure img { width: 20%; height: 500px; float: left; }
+  div#slider figure img { width: 20%; height: 700px; float: left; }
 div#slider { width: 100%; max-width: 2000px; overflow: hidden }
  
   @keyframes slidy {
@@ -29,5 +29,34 @@ div#slider { width: 100%; max-width: 2000px; overflow: hidden }
     font-size: 0;
     animation: 20s slidy infinite;
   }
+  .activite {
+    background-color: rgba(255,255,255);
+    display: flex;
+    justify-content: space-around;
+}
+.activite:hover img {
+    height: 450px;
+}
 
+.img-activite {
+    height: 400px;
+    transition: 3s;
+}
+
+.text-activite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border: 3px solid black;
+    margin: 60px;
+    padding: 15px;
+    background-color: rgba(255,255,255);
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+}
 
