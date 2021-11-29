@@ -3,7 +3,7 @@ margin:0 ;
 padding: 0;
 }
 .video {
-position: fixed; 
+position: static; 
 top: 0;
 left: 0;
 bottom: 100%;
@@ -13,10 +13,11 @@ z-index: -100;
 }
 body {
 height: auto;
-background: url(assets/fond.png);
-background-size: cover;
-background-attachment: scroll;
+background: url(assets/SaunaH.jpg);
+background-size: 100%;
+background-attachment: fixed;
 background-position: center center;
+background-repeat: no-repeat;
 }
 .Prez {
 background-color: hsla(0, 0%, 100%, 0.50);

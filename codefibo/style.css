@@ -20,7 +20,7 @@ li{
  }
       /*header et hover*/
  header {
- 	background-color: rgba(0,0,0,0.3);
+ 	background-color: rgba(0,0,0,0.1);
    border-bottom: 2px solid white;
    position: fixed;
    top: 0;
