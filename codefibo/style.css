@@ -5,13 +5,18 @@
  .navbox ul{
  	display: flex;
  	justify-content: space-around;
- }
+   color: white;
+}
 li{
 	list-style: none;
 }
  .navbox a {	
  	text-decoration: none;
-    color:white;
+    color: white;
+}
+ .nav.active {
+    text-decoration: none;
+    color: black;
  }
  .logo{
  	text-align: center;
@@ -20,7 +25,7 @@ li{
  }
       /*header et hover*/
  header {
- 	background-color: rgba(0,0,0,0.1);
+ 	background-color: rgba(0, 0, 0, 0.1);
    border-bottom: 2px solid white;
    position: fixed;
    top: 0;
@@ -143,7 +148,6 @@ footer li{
 }
 h1{
    text-align: center;
-   padding: 75px;
 }
 
 /*pictur bateau*/
