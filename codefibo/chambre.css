@@ -1,5 +1,8 @@
 body {
     background-image: url("assets/ch_fond.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
     /* background-color: rgba(24, 24, 80, 0.3); */
 }
 
