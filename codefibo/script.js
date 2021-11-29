@@ -79,10 +79,9 @@ document.onpointerdown = function (e) {
       tX += desX * 0.1;
       tY += desY * 0.1;
       applyTranform(obox);
-      playSpin(false);
       if (Math.abs(desX) < 0.5 && Math.abs(desY) < 0.5) {
         clearInterval(obox.timer);
-        playSpin(true);
+      
       }
     }, 17);
     this.onpointermove = this.onpointerup = null;
