@@ -18,25 +18,25 @@
 		      		<nav>
 			      		<ul>
 			        		<li>
-			        			<a href="index.html">Accueil</a>
+			        			<a id="one" href="index.html" data-color="#000">Accueil</a>
 			        		</li>
 			        		<li>
-			        			<a href="Ajaccio.html">Ajaccio</a>
+			        			<a id="one" href="Ajaccio.html" data-color="#000">Ajaccio</a>
 			        		</li>
 			        		<li>
-			        			<a href="chambre.html">Chambre & Suite</a>
+			        			<a id="one" href="chambre.html" data-color="#000">Chambres & Suites</a>
 			        		</li>
 			        		<li>
-			        			<a href="Restaurant.html">Restaurant & Bar</a>
+			        			<a id="one" href="Restaurant.html" data-color="#000">Restaurant & Bar</a>
 			        		</li>
 			        		<li>
-			        			<a href="spa.html">Spa & Bien être</a>
+			        			<a id="one" href="spa.html" data-color="#000">Spa & Bien être</a>
 			        		</li>
 			        		<li>
-			        			<a href="activite.html">Activité</a>
+			        			<a id="one" href="activite.html" data-color="#000">Activités</a>
 			        		</li>
 			        		<li>
-			        			<a href="Evenements.html">Évenements</a>
+			        			<a id="one" href="Evenements.html" data-color="#000">Évenements</a>
 			        		</li>
 			        			<button class="cta"><a href="reservation.html">Réservation</a></button>
 			        		</li>
@@ -124,3 +124,12 @@
 <script src="script.js"></script>
 	</body>
 </html>
+<script>
+    $(window).on("scroll touchmove", function() {
+
+if ($(document).scrollTop() >= $("#one").position().top) {
+  $('.nav.active').css('color',
+   $("#one").attr("data-color"));
+};
+});
+</script>
