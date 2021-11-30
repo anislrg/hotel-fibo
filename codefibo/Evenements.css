@@ -6,7 +6,7 @@ div#slider figure {
     padding: 0px;
     font-size: 0;
   }
-  div#slider figure img { width: 20%; height: 21%; float: left; }
+  div#slider figure img { width: 20%; height: 25%; float: left; }
 div#slider { width: 100%; max-width: 2000px; overflow: hidden }
  
   @keyframes slidy {
@@ -37,6 +37,8 @@ div#slider { width: 100%; max-width: 2000px; overflow: hidden }
     background-color: rgba(255,255,255);
     display: flex;
     justify-content: space-around;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 .activite:hover img {
     height: 450px;

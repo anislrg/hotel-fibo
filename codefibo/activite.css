@@ -2,6 +2,7 @@ body {
     background-image: url("assets/acti-para-bkgJPG.JPG");
     background-repeat: no-repeat;
     background-size: cover;
+    bottom: 10%;
     /* background-attachment: fixed; */
 }
 .Debut {
@@ -12,6 +13,8 @@ body {
     background-color: rgba(255,255,255);
     display: flex;
     justify-content: space-around;
+    margin-top: 25%;
+    margin-bottom: 2%;
 }
 .activite:hover img {
     height: 450px;
