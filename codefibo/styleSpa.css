@@ -13,11 +13,10 @@ z-index: -100;
 }
 body {
 height: auto;
-background: url(assets/SaunaH.jpg);
-background-size: 100%;
+/*background-size: 100%;
 background-attachment: fixed;
 background-position: center center;
-background-repeat: no-repeat;
+background-repeat: no-repeat;*/
 }
 .Prez {
 background-color: hsla(0, 0%, 100%, 0.50);
