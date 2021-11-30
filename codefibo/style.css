@@ -13,10 +13,12 @@ li{
  .navbox a {	
  	text-decoration: none;
     color: white;
+    will-change: color;
 }
  .nav.active {
     text-decoration: none;
     color: black;
+    will-change: color;
  }
  .logo{
  	text-align: center;
@@ -25,17 +27,16 @@ li{
  }
       /*header et hover*/
  header {
- 	background-color: rgba(0, 0, 0, 0.1);
+ 	background-color: rgba(255, 255, 255, 0.5);
    border-bottom: 2px solid white;
    position: fixed;
    top: 0;
    left: 0;
    width: 100%;
    z-index: 100;
-   background: transparent;
  }
       /* Header defilement de couleur */
- header.active{
+header.active{
    background-color: rgba(0,0,0,0.3);
    border-bottom: 2px solid white;
    position: fixed;
@@ -45,6 +46,14 @@ li{
    z-index: 100;
    background: white;
    transition: all 0.5s;
+}
+.header {
+   will-change: background;
+   transition: all 0.5s;
+}
+#one {
+   will-change: background;
+   color: black;
 }
 header:hover{
   background-color:white;
@@ -90,7 +99,7 @@ header:hover{
  footer{
    width: 100%;
    background:rgba(0,0,0,0.7);
-   color: white;
+   color: #ffffff;
    flex-shrink: 0;
    position: absolute;
    border-top: 2px solid white;
