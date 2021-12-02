@@ -1,4 +1,4 @@
-div#slider { width: 100%; max-width: 2000px; }
+div#slider { width: 100%; max-width: 1600px; }
 div#slider figure {
     position: relative; 
     width: 500%;
@@ -6,8 +6,8 @@ div#slider figure {
     padding: 0px;
     font-size: 0;
   }
-  div#slider figure img { width: 20%; height: 25%; float: left; }
-div#slider { width: 100%; max-width: 2000px; overflow: hidden }
+  div#slider figure img { width: 20%; height: 24%; float: left; }
+div#slider { width: 100%; max-width: 1600px; overflow: hidden }
  
   @keyframes slidy {
     0% { left: 0%; }
