@@ -7,7 +7,7 @@ div#slider figure {
     font-size: 0;
 }
 
-div#slider figure img { width: 20%; height: 26%; float: left; }
+div#slider figure img { width: 20%; height: 29%; float: left; }
 div#slider { width: 100%; max-width: 2000px; overflow: hidden; margin: 0%; }
  
 @keyframes slidy {
@@ -60,8 +60,6 @@ div#slider { width: 100%; max-width: 2000px; overflow: hidden; margin: 0%; }
 }
 p {
   text-align: center;
-  padding-left: 25%;
-  padding-right: 25%;
 }
 h1 {
   text-align: center;

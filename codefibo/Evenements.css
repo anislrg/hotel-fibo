@@ -66,3 +66,11 @@ p {
     text-align: center;
 }
 
+.Napo {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 95%;
+  margin-top: 18%;
+  margin-bottom: 2%;
+  position: absolute;
+}
