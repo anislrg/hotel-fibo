@@ -1,84 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
+
 <head>
-	<meta charset="utf-8">
-	<title>reservation</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <title>Reservation Fibonacci Hôtel</title>
+  
+      <link rel="stylesheet" href="reservation.css">
+
 </head>
+
 <body>
-	<form>
-    <p class="fallbackLabel">Veuillez saisir votre date d'arrivée :</p>
-    <div class="fallbackDatePicker">
-      <span>
-        <label for="day">Jour :</label>
-        <select id="day" name="day">
-        	<option>01</option>
-        	<option>02</option>
-        	<option>03</option>
-        	<option>04</option>
-        	<option>05</option>
-        	<option>06</option>
-        	<option>07</option>
-        	<option>08</option>
-        	<option>09</option>
-        	<option>10</option>
-        	<option>11</option>
-        	<option>12</option>
-        	<option>13</option>
-        	<option>14</option>
-        	<option>15</option>
-        	<option>16</option>
-        	<option>17</option>
-        	<option>18</option>
-        	<option>19</option>
-        	<option>20</option>
-        	<option>21</option>
-        	<option>22</option>
-        	<option>23</option>
-        	<option>24</option>
-        	<option>25</option>
-        	<option>26</option>
-        	<option>27</option>
-        	<option>28</option>
-        	<option>29</option>
-        	<option>30</option>
-        	<option>31</option>
-        </select>
-      </span>
-      <span>
-        <label for="month">Mois :</label>
-        <select id="month" name="month">
-          <option selected>Janvier</option>
-          <option>Février</option>
-          <option>Mars</option>
-          <option>Avril</option>
-          <option>Mai</option>
-          <option>Juin</option>
-          <option>Juillet</option>
-          <option>Août</option>
-          <option>Septembre</option>
-          <option>Octobre</option>
-          <option>Novembre</option>
-          <option>Décembre</option>
-        </select>
-      </span>
-      <span>
-        <label for="year">Année :</label>
-        <select id="year" name="year">
-        	<option>2021</option>
-        	<option>2022</option>
-        	<option>2023</option>
-        	<option>2024</option>
-        	<option>2025</option>
-        	<option>2026</option>
-        	<option>2027</option>
-        	<option>2028</option>
-        	<option>2029</option>
-        	<option>2030</option>
-        	<option>2031</option>
-        </select>
-      </span>
-    </div>
-</form>
-</body>
-</html>
+
+  <div id="overlay"></div>
+	<div class="container calendar">
+		<div class="header">
+			<div class="icon arr prev"></div>
+			<div class="month">Décembre 2021</div>
+			<div class="icon arr next"></div>
+		</div>
+		<table>
+			<tr>
+				<th>Lun</th><th>Mar</th><th>Mer</th><th>Jeu</th><th>Ven</th><th>Sam</th><th>Dim</th>
+			</tr>
+			<tr>
+				<td class="notCurMonth">29</td><td class="notCurMonth">30</td>
+				<td>1</td><td>2</td><td class="curDay">3</td><td>4</td><td>5</td>
+			</tr>
+			<tr>
+				<td>6</td><td class="holiday">7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td>
+			</tr>
+			<tr>
+				<td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td>
+			</tr>
+			<tr>
+				<td>20</td><td>21</td><td>22</td><td class="holiday">23</td><td>24</td><td>25</td><td>26</td>
+			</tr>
+			<tr>
+				<td>27</td><td>28</td><td>29</td><td>30</td>
+				<td class="notCurMonth">1</td><td class="notCurMonth">2</td class="notCurMonth"><td class="notCurMonth">3</td>
+			</tr>
+		</table>
+		<button class="button-big" id="add_event">VALIDER</button>
+	</div>
+
+
+	<form action="" class="container booking" name="booking">
+		<div class="header">
+			<div>
+				<h2>Le Bonaparte</h2>
+				<div class="icon"></div>
+				<p>Ajaccio, France</p>
+			</div>
+		</div>
+		
+		<div class="dates" data-type="none">
+			<label for="checkin">Arrivée</label>
+			<div class="input-text">
+				<input type="datetime" value="9 July, 2016" id="checkin" readonly>
+				<div class="icon pop-up"></div>
+			</div>
+
+			<label for="checkout">Départ</label>
+			<div class="input-text">
+				<input type="datetime" value="16 July, 2016" id="checkout" readonly>
+				<div class="icon pop-up"></div>
+			</div>
+
+			<div class="div-chck">
+				<input type="checkbox" id="check">
+				<div class="icon input-text"></div>
+				<label for="check" class="checkbox">Date flexible
+				</label>
+			</div>
+		</div>
+		
+		<ul class="persons">
+			<li>
+				<label>adultes</label>
+				<div class="input-text">
+					<select name="adults">
+						<option value="1">1</option>
+						<option value="2" selected="selected">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>   
+					</select>
+					<div class="icon"></div>
+				</div>
+			</li>
+			<li>
+				<label>Enfants de moins de 16 ans</label>
+				<div class="input-text">
+					<select name="children">
+						<option value="0">0</option>
+						<option value="1" selected="selected">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>   
+					</select>
+					<div class="icon"></div>
+				</div>
+			</li>
+		</ul>
+
+		<button class="button-big" id="search"><div class="icon"></div>RECHERCHER</button>
+	</form>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script  src="reservation.js"></script>
