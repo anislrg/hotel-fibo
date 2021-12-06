@@ -44,7 +44,7 @@ h2 {
 .container button {
 	text-transform: uppercase;
 	border: none;
-	background-color: #fb6362;
+	background-color:goldenrod;
 	color: #fff;
 	margin: 0 auto;
 	display: block;
@@ -56,10 +56,10 @@ h2 {
 transition: background-color 0.2s; 
 }
 .container button:hover {
-	background-color: #f98584;
+	background-color: #000;
 }
 .container button:active {
-	background-color: #f98584;
+	background-color:#fff;
 	position: relative;
 	top: 2px;
 }
@@ -240,7 +240,7 @@ transition: background-color 0.2s;
 .booking .header {
 	width: 100%;
 	height: 185px;
-	background-image: url('https://res.cloudinary.com/dw369yzsh/image/upload/v1483213946/img_booking_ck8dw4.jpg');
+	background-image: url('assets/Facade1.jpg');
 	position: relative;
 	color: #fff;
 }
@@ -253,7 +253,7 @@ transition: background-color 0.2s;
 	font-size: 25px;
 }
 .booking .header p {
-	font-family: "Gotham Light", sans-serif;
+	font-family: "Arial", sans-serif;
 	margin: 4px 0 0 21px;
 }
 .booking .header .icon {
