@@ -1,5 +1,4 @@
-
- .Partie-une, .partie-deux, .partie-trois {
+.Partie-une, .partie-deux, .partie-trois {
     background-color: hsla(0, 0%, 100%, 0.50);
     text-align: center;
     color: black;
@@ -11,9 +10,19 @@
     max-width: 100%;
     max-height: 100%;
  }
- .Partie-une {
+.Partie-une {
     background-image: url(assets/Brume.jpg);
     background-position: center center;
+    position: sticky;
+    overflow-y: visible;
     background-size: 100%;
-   box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 5px 7px rgba(0,0,0,0);
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 5px 7px rgba(0,0,0,0);
  }
+.MessageVisite {
+   color: white;
+   margin-top: 2%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   width: 100%;
+   padding-top: 10%;
+   font-size: 3rem;
+}
