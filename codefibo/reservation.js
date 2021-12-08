@@ -28,8 +28,14 @@ $(document).ready(function(){
     }); 
     // au click "rechercher" //
     $('#search').on('click', function(e){
-        $('.booking').addClass('is-sent');
-        e.preventDefault();
+        
+        if ( confirm( "Merci de bien vérifier avant réservation" ) )
+         { alert("réservation confirmée");
+            // Code à éxécuter si le l'utilisateur clique sur "OK"
+        } else {
+            // Code à éxécuter si l'utilisateur clique sur "Annuler" 
+        }
+        
     });
       
     });
