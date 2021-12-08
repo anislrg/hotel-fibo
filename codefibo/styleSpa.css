@@ -86,3 +86,8 @@ margin: 0px 15px 15px 0px;
     border-top: 2px solid black;
     padding: -2%;
  }
+ .separateur {
+    display: block;
+    margin: auto;
+    width: 250px;
+}

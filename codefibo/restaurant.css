@@ -93,3 +93,8 @@ body {
    margin-top: 18%;
    color: black;
 }
+.separateur {
+   display: block;
+   margin: auto;
+   width: 250px;
+}
