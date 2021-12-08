@@ -13,6 +13,7 @@
 .Partie-une {
     background-image: url(assets/Brume.jpg);
     background-position: center center;
+    background-attachment: fixed;
     position: sticky;
     overflow-y: visible;
     background-size: 100%;
