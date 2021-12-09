@@ -32,10 +32,11 @@ $(document).ready(function(){
         if ( confirm( "Merci de bien vérifier avant réservation" ) )
          { alert("réservation confirmée");
             // Code à éxécuter si le l'utilisateur clique sur "OK"
+            window.location.href = 'index.html'
         } else {
             // Code à éxécuter si l'utilisateur clique sur "Annuler" 
         }
-        
+
     });
       
     });
