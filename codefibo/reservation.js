@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     //Je crée une fenêtre pop-up et je déclare au click //
      $('.pop-up').on('click', function(){
@@ -30,12 +31,15 @@ $(document).ready(function(){
     $('#search').on('click', function(e){
         
         if ( confirm( "Merci de bien vérifier avant réservation" ) )
-         { alert("réservation confirmée");
+         {e.preventDefault();
+            var popup = alert("réservation confirmée");
             // Code à éxécuter si le l'utilisateur clique sur "OK"
-            window.location.href = 'index.html'
         } else {
             // Code à éxécuter si l'utilisateur clique sur "Annuler" 
         }
+              if (!popup) {
+                window.location.href = "index.html";
+              }
 
     });
       
