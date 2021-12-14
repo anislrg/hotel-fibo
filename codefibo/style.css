@@ -213,3 +213,33 @@ p {
  margin-bottom: 2%;
  position: absolute;
 }
+.Plus {
+   text-decoration: none;
+   border: none;
+   background-color: goldenrod;
+   padding: 15px 30px;
+   text-align: center;
+   font-size: 14px;
+   margin-left: 70%;
+   margin-bottom: 2%;
+}
+.Plus1 {
+   text-decoration: none;
+   border: none;
+   background-color: goldenrod;
+   padding: 15px 30px;
+   text-align: center;
+   font-size: 14px;
+   margin-left: 23%;
+   margin-bottom: 2%;
+}
+.Plus a {
+   text-decoration: none;
+   color: white;
+   will-change: color;
+}
+.Plus1 a {
+   text-decoration: none;
+   color: white;
+   will-change: color;
+}
